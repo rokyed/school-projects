@@ -1,0 +1,379 @@
+
+/*ncolor pattern: #153045 #2E456E #5572A6 #8774B6 #93CFE6 #CEDDED*/
+
+.menu_button{
+    background-color: transparent;
+    height:38px;
+    width: 38px;
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0px;
+     -webkit-transition: all 0.2s;  /* For Safari 3.1 to 6.0 */
+    transition: all 0.2s;
+    border-style: none;
+}
+
+.menu_button:hover{
+     background-color:#fff;
+      box-shadow: 0px 0px 5px #fff;
+     
+}
+
+.menu_button_content{
+    height: 100%;
+     vertical-align: middle;
+      display: inline-block;
+      border-style: none;
+}
+#menu_enhacement{
+     color: #fff;
+       text-shadow: 0px 0px 5px #fff;
+}
+#menu_bar{
+    width: 100%;
+    height: 42px;
+    line-height: 39px;
+    vertical-align: middle;
+    margin: 0px;
+    padding: 0px;
+    background-color: #5572A6;
+    position: fixed;
+    box-shadow: 0px 0px 40px #000;
+    z-index: 2;
+}
+.bar_filler{
+    height: 42px;
+    width: 100%;
+}
+
+body {
+     background:  -webkit-linear-gradient(left,#153045, #2E456E,#153045); 
+    background:   -o-linear-gradient(right,#153045, #2E456E,#153045);
+    background:    -moz-linear-gradient(right,#153045, #2E456E,#153045); 
+    background:   linear-gradient(to right,#153045, #2E456E,#153045); 
+  
+   /*background-image: url('ressources/main/bkg.jpg');*/
+    width: 100%;
+   
+    color: #fff;
+    text-shadow: 0px 0px 5px #fff;
+    margin: 0px;
+    font-family: Arial;
+   
+   -webkit-transition: all 0.2s;  /* For Safari 3.1 to 6.0 */
+    transition: all 0.2s;
+}
+html{
+    width: 100%;
+    overflow-x: hidden;
+  
+}
+
+.main_article {
+    color: #CEDDED;
+}
+
+
+/* signs table starts here ------------------------------------------------------------------*/
+/*elements inside cells:*/
+            #sign_table{
+                width:800px;
+                border: none;
+                margin: 0px;
+                border-collapse: collapse;
+	            border-spacing: 0;
+            }
+            .signs_image{
+                height: 300px;
+                width:auto;
+   
+            }
+
+/*borders on cells specials*/
+.signs_tr_pair .sign_description{
+   border-bottom-right-radius: 5px;
+   border-top-right-radius: 5px;
+    margin: 0px;
+    background: transparent;
+   
+}
+.signs_tr_pair .imageSide{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    
+    margin: 0px;
+    background: transparent;
+  
+    
+}
+.signs_tr_inpair .sign_description{
+     border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    
+    margin: 0px;
+    background: transparent;
+     
+     
+}
+.signs_tr_inpair .imageSide{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+    margin: 0px;
+    background: transparent;
+  
+}
+/*rows------------*/
+.signs_tr_pair{
+     
+    color: #fff;
+    background: -webkit-linear-gradient(left,#2E456E, #AAD0DD); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,#2E456E,#AAD0DD); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,#2E456E, #AAD0DD); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,#2E456E,#AAD0DD); /* Standard syntax (must be last) */
+    /* 
+    border: 2px solid;
+    border-radius: 5px;
+    */
+     border-radius: 5px;
+    text-shadow: 0px 0px 5px #fff;
+    background-attachment:fixed;
+    padding: 0px;
+     
+}
+.signs_tr_inpair{
+    
+    color: #000;
+    background: -webkit-linear-gradient(left,#AAD0DD, #2E456E); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,#AAD0DD,#2E456E); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,#AAD0DD,#2E456E); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,#AAD0DD,#2E456E); /* Standard syntax (must be last) */
+    /*
+    border: 2px solid;
+    border-radius: 5px;
+    */
+     border-radius: 5px;
+    text-shadow: 0px 0px 5px #000;
+    background-attachment:fixed;
+    padding: 0px;
+     
+}
+/*signs table ends here ----------------------------------------------------------------*/
+#messageBack{
+    width:800px;
+}
+
+#message_byDate{
+    width:800px;
+    background: #fff;
+     color: #000;
+         background: -webkit-linear-gradient(left, #2E456E,#fff, #2E456E); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right ,#2E456E,#fff, #2E456E); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,#2E456E,#fff, #2E456E); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,#2E456E,#fff, #2E456E); /* Standard syntax (must be last) */
+    border-radius: 5px;
+     text-shadow: 0px 0px 5px #000;
+    
+}
+#fullform{
+ 
+     width:800px;
+    background: #fff;
+     color: #000;
+      background: -webkit-linear-gradient(left, #2E456E,#fff, #2E456E); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right ,#2E456E,#fff, #2E456E); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,#2E456E,#fff, #2E456E); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,#2E456E,#fff, #2E456E); /* Standard syntax (must be last) */
+    border-radius: 5px;
+     text-shadow: 0px 0px 5px #000;
+       -webkit-transition: all 3s;  /* For Safari 3.1 to 6.0 */
+    transition: all 3s;
+     
+}
+#fullform:hover{
+    color: #00f;
+     text-shadow: 0px 0px 5px #00f;
+     -webkit-transition: all 30s;  /* For Safari 3.1 to 6.0 */
+    transition: all 30s;
+}
+.inputBox{
+    width: 100%;
+     background-color: #fff;
+      border-radius: 5px;
+    text-shadow: 0px 0px 5px #2E456E;
+     background: -webkit-linear-gradient(left, #e0e0ff,#fff,  #e0e0ff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right , #e0e0ff,#fff,  #e0e0ff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e0e0ff,#fff,  #e0e0ff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e0e0ff,#fff,  #e0e0ff);
+   border: none;
+      -webkit-transition: all 0.2s;  /* For Safari 3.1 to 6.0 */
+    transition: all 0.2s;
+}
+.inputBox:hover{
+     color: #00f;
+    text-shadow: 0px 0px 5px #00f;
+    box-shadow:  0px 0px 4px #00f;
+}
+.inputBox:focus{
+     color: #ff6a00;
+    text-shadow: 0px 0px 5px #ff6a00;
+    box-shadow:  0px 0px 4px #ff6a00;
+}
+.inputButton{
+    
+    width: 100%;
+    color:  #2E456E;
+    background-color: #fff;
+     background: -webkit-linear-gradient(left, #e0e0ff,#fff,  #e0e0ff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right , #e0e0ff,#fff,  #e0e0ff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e0e0ff,#fff,  #e0e0ff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e0e0ff,#fff,  #e0e0ff);
+      border-radius: 5px;
+    text-shadow: 0px 0px 5px #2E456E;
+    border: none;
+      -webkit-transition: all 0.2s;  /* For Safari 3.1 to 6.0 */
+    transition: all 0.2s;
+}
+.inputButton:hover{
+    color: #00f;
+    text-shadow: 0px 0px 5px #00f;
+    box-shadow:  0px 0px 4px #00f;
+}
+.inputButton:focus{
+    color: #ff0;
+    text-shadow: 0px 0px 5px #ff6a00;
+    box-shadow:  0px 0px 4px #ff6a00;
+}
+.addresList{
+    list-style-type: square;
+                      
+}
+a{
+   border-style: none;
+}
+a:link    {
+     -webkit-transition: all 0.2s;  /* For Safari 3.1 to 6.0 */
+    transition: all 0.2s;
+    color: #fff;
+    border: none;
+     text-shadow: 0px 0px 5px #fff;
+     text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color:  #fff;
+     text-shadow: 0px 0px 5px #fff;
+}
+
+/* mouse over link */
+a:hover   {
+    color: #CEDDED;
+     text-shadow: 0px 0px 10px  #CEDDED;
+}
+
+/* selected link */
+a:active  {
+    color: #5572A6;
+     text-shadow: 0px 0px 10px #5572A6;
+} 
+
+#links_table{
+    width: 800px;
+   
+}
+#links_table *{
+    
+}
+
+#hidden_table{
+    border: none;
+    width: 600px;
+    
+}
+
+#footer_bar{
+    position: fixed;
+    bottom: 0px;
+     width: 100%;
+    height: 42px;
+    line-height: 39px;
+    vertical-align: middle;
+    margin: 0px;
+    padding: 0px;
+    background-color: #5572A6;
+   z-index: 2;
+    box-shadow: 0px 0px 40px #000;
+}
+#footer_content{
+    height: 30px;
+    position: relative;
+     text-shadow: 0px 0px 5px #fff;
+   
+     -webkit-transition: all 0.2s;  /* For Safari 3.1 to 6.0 */
+    transition: all 0.2s;
+   left:-10px;
+       float: right;
+       color: #fff;
+}
+#footer_content:hover{
+     color:#5572A6;
+     text-shadow: 0px 0px 5px #5572A6;  
+ 
+}
+
+#contact_list{
+    
+    width: 800px;
+}
+#contact_list .def{
+
+    text-align: left;
+    float: left;
+}
+.sign_menu_image{
+    height: 50px;
+}
+#sign_menu_table{
+    width: 800px;
+}
+.thumbnail_sign{
+    height:70px;
+    width: 100px;
+    font-size:10px;
+     color: #fff;
+    background: -webkit-linear-gradient(left,#5572A6, #AAD0DD,#5572A6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,,#5572A6, #AAD0DD,#5572A6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,#5572A6, #AAD0DD,#5572A6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,#5572A6, #AAD0DD,#5572A6); /* Standard syntax (must be last) */
+    text-align: center;
+     border-radius: 5px;
+    text-shadow: 0px 0px 5px #fff;
+   
+     -webkit-transition: all 0.2s;  /* For Safari 3.1 to 6.0 */
+    transition: all 0.2s;
+    z-index: initial;
+}
+.thumbnail_sign:hover{
+  
+    
+    box-shadow: 0px 0px 10px #000;
+    z-index: 2;
+    text-decoration: none;
+}
+.external_link{
+    color: #ff6a00;
+    text-shadow: 0px 0px 5px #ff6a00;
+}
+.external_link:link{
+    color: #ff6a00;
+    text-shadow: 0px 0px 5px #ff6a00;
+}
+.external_link:visited{
+    color: #ff6a00;
+    text-shadow: 0px 0px 5px #ff6a00;
+}
+.external_link:hover{
+     color: #000;
+    text-shadow: 0px 0px 5px #000;
+}

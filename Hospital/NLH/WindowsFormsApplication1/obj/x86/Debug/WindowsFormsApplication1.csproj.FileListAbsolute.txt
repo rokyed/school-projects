@@ -1,0 +1,9 @@
+C:\DEV\Hospital\NLH\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\DEV\Hospital\NLH\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\DEV\Hospital\NLH\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.LoginForm.resources
+C:\DEV\Hospital\NLH\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\DEV\Hospital\NLH\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\DEV\Hospital\NLH\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\DEV\Hospital\NLH\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\DEV\Hospital\NLH\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.AdministratorForm.resources
+C:\DEV\Hospital\NLH\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.DBAdmin.resources

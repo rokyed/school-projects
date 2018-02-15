@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9D3225E8-4A19-4B8D-B2FE-5A05020C3EBD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Multilease</RootNamespace>
+    <AssemblyName>Multilease</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddColor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddColor.Designer.cs">
+      <DependentUpon>AddColor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCustomer.Designer.cs">
+      <DependentUpon>AddCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLease.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddLease.Designer.cs">
+      <DependentUpon>AddLease.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddTerm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTerm.Designer.cs">
+      <DependentUpon>AddTerm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddVehicle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddVehicle.Designer.cs">
+      <DependentUpon>AddVehicle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddVehicleModel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddVehicleModel.Designer.cs">
+      <DependentUpon>AddVehicleModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddVehicleType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddVehicleType.Designer.cs">
+      <DependentUpon>AddVehicleType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteForm.Designer.cs">
+      <DependentUpon>DeleteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCar.Designer.cs">
+      <DependentUpon>EditCar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCustomer.Designer.cs">
+      <DependentUpon>EditCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditLease.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditLease.Designer.cs">
+      <DependentUpon>EditLease.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MakePayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MakePayment.Designer.cs">
+      <DependentUpon>MakePayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TerminateLease.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TerminateLease.Designer.cs">
+      <DependentUpon>TerminateLease.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VoidPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VoidPayment.Designer.cs">
+      <DependentUpon>VoidPayment.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddColor.resx">
+      <DependentUpon>AddColor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddCustomer.resx">
+      <DependentUpon>AddCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddLease.resx">
+      <DependentUpon>AddLease.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTerm.resx">
+      <DependentUpon>AddTerm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddVehicle.resx">
+      <DependentUpon>AddVehicle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddVehicleModel.resx">
+      <DependentUpon>AddVehicleModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddVehicleType.resx">
+      <DependentUpon>AddVehicleType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteForm.resx">
+      <DependentUpon>DeleteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCar.resx">
+      <DependentUpon>EditCar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditCustomer.resx">
+      <DependentUpon>EditCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditLease.resx">
+      <DependentUpon>EditLease.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MakePayment.resx">
+      <DependentUpon>MakePayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="TerminateLease.resx">
+      <DependentUpon>TerminateLease.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VoidPayment.resx">
+      <DependentUpon>VoidPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
